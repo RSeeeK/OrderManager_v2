@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:rich="http://richfaces.org/rich">
+<h:head>
+    <title>Order detailed</title>
+</h:head>
+<h:body>
+    <f:metadata>
+        <f:viewParam name="orderId" value="#{orderController.orderId}"/>
+        <f:event type="preRenderView" listener="#{applicationController.preRenderViewOrderEvent()}"/>
+    </f:metadata>
+
+    <h:form id="formOrder">
+        <h:panelGrid columns="3">
+
+            <h:outputLabel value="Order №: " />
+            <h:inputText id="number" value="#{orderController.order.number}" />
+            <rich:message for="number" />
+
+            <h:outputLabel value="E-Mail: " />
+            <h:inputText id="email" value="#{orderController.order.customerEmail}" />
+            <rich:message for="email" />
+
+            <h:outputLabel value="Creation time: "/>
+            <h:outputLabel value= "#{orderController.getFormattedOrderDate(orderController.order.orderTime)}" />
+
+        </h:panelGrid>
+
+        <h:commandButton value="Add order content" action="#{orderContentController.addNewOrderContent()}" style="margin-right : 8px" />
+        <rich:extendedDataTable value="#{orderContentController.getCurrentOrderContent()}" id="table" var="item" sortMode="single">
+            <rich:column width="150px" sortBy="#{item.product.name}"><f:facet name="header">Product</f:facet>#{item.product}</rich:column>
+            <rich:column width="150px"><f:facet name="header">Count</f:facet>#{item.count}</rich:column>
+            <rich:column width="150px"><f:facet name="header">Price</f:facet>#{item.price}</rich:column>
+            <rich:column width="150px"><f:facet name="header">Sum</f:facet>#{item.sum}</rich:column>
+            <rich:column width="95px">
+                <f:facet name="header">Actions</f:facet>
+                <h:commandButton value="edit" type="submit" action="#{orderContentController.editCurrentOrderContent(item)}"/>
+                <h:outputLabel value="  "/>
+                <h:commandButton value="delete" action="#{orderContentController.removeOrderContent(item)}" />
+            </rich:column>
+        </rich:extendedDataTable>
+
+        <h:panelGrid columns="2" cellpadding="5">
+            <h:commandButton value="Save"
+                             action="#{applicationController.saveData()}" />
+            <h:commandButton value="Cancel"
+                             action="#{applicationController.cancelDataEdit()}"/>
+        </h:panelGrid>
+    </h:form>
+
+</h:body>
+</html>

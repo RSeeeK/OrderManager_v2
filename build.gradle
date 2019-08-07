@@ -1,0 +1,29 @@
+
+plugins {
+    id 'java'
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+dependencies {
+    compile 'javax.validation:validation-api:2.0.1.Final'
+    compile 'org.richfaces:richfaces:4.5.17.Final'
+    compile 'com.sun.jersey:jersey-bundle:1.19.4'
+    compile 'com.sun.jersey:jersey-server:1.19.4'
+    compile 'com.sun.jersey:jersey-core:1.19.4'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+    testCompile 'junit:junit:4.12'
+    providedCompile 'javax:javaee-api:7.0'
+    providedCompile 'org.hibernate:hibernate-core:5.4.3.Final'
+}
+
+group = 'OrderManager'
+version = '1.0'
+sourceCompatibility = '1.8'
+
