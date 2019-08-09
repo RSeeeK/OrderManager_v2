@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.richfaces:richfaces-core:4.5.17.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.richfaces/richfaces-core/4.5.17.Final/d0fb1b6d1bb616ca9a08dc7250b2d50a846c8f40/richfaces-core-4.5.17.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.richfaces/richfaces-core/4.5.17.Final/afb924273bd403f9283e5726fea6164ebf819868/richfaces-core-4.5.17.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

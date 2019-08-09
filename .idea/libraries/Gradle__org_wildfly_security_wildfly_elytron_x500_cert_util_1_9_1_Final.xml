@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-x500-cert-util:1.9.1.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-x500-cert-util/1.9.1.Final/d3456ab4cba5d03f3a45f4bb612fc1b6d483ca9a/wildfly-elytron-x500-cert-util-1.9.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-x500-cert-util/1.9.1.Final/9a501495597083347ea50cea37ca9c11159572d6/wildfly-elytron-x500-cert-util-1.9.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

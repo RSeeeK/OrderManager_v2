@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-http-util:1.9.1.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-http-util/1.9.1.Final/41e03a076fb453f785e9c4ee4044ca466a938bc4/wildfly-elytron-http-util-1.9.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-http-util/1.9.1.Final/ba7f956f08b0ac42031061e688714768472a961a/wildfly-elytron-http-util-1.9.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

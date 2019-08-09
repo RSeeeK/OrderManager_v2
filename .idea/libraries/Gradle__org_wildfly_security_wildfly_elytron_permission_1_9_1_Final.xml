@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-permission:1.9.1.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-permission/1.9.1.Final/919aa6a490a891e12421d7b21fac0049e2876f73/wildfly-elytron-permission-1.9.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-permission/1.9.1.Final/aa8f37714d6ff88d9e2a42932bee4b5614023899/wildfly-elytron-permission-1.9.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

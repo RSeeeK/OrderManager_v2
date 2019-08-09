@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : ordermanager_app : ordermanager_app.war">
+    <output-path>$PROJECT_DIR$/ordermanager_app/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="ordermanager_app.war">
+      <element id="artifact" artifact-name="Gradle : ordermanager_app : ordermanager_app.war (exploded)" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.core:wildfly-protocol:9.0.0.Beta7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-protocol/9.0.0.Beta7/8fb183cdd669f2c097757f1362dfe9564051ef5e/wildfly-protocol-9.0.0.Beta7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-protocol/9.0.0.Beta7/4f40144a2ad9c80230cec3e9a704e84165653b00/wildfly-protocol-9.0.0.Beta7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

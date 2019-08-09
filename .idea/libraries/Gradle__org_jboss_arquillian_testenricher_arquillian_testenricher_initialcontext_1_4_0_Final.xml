@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext:1.4.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.arquillian.testenricher/arquillian-testenricher-initialcontext/1.4.0.Final/6cb87e4cebfa8626c683e90d834b9190840a162b/arquillian-testenricher-initialcontext-1.4.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.arquillian.testenricher/arquillian-testenricher-initialcontext/1.4.0.Final/ea54040db308a8147cde90da141b95d986e00a86/arquillian-testenricher-initialcontext-1.4.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

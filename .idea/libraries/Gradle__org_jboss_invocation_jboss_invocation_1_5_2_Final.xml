@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.invocation:jboss-invocation:1.5.2.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.invocation/jboss-invocation/1.5.2.Final/56a3b9fcc7f60e7a82751d00959811d99a001f8d/jboss-invocation-1.5.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.invocation/jboss-invocation/1.5.2.Final/b1b58b7b867b2754de6a0b33e4045582e3ad9d60/jboss-invocation-1.5.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

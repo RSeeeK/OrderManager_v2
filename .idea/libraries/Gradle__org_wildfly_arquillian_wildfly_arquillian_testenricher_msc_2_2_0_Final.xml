@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.arquillian:wildfly-arquillian-testenricher-msc:2.2.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.arquillian/wildfly-arquillian-testenricher-msc/2.2.0.Final/f1053bb9d75da907bd4dc8b21a36543ea11efd96/wildfly-arquillian-testenricher-msc-2.2.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.arquillian/wildfly-arquillian-testenricher-msc/2.2.0.Final/eaf2f0e265ad426c5c6217119bb30aa06e6cc583/wildfly-arquillian-testenricher-msc-2.2.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

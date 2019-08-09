@@ -3,3 +3,7 @@
  */
 
 rootProject.name = 'OrderManager'
+include 'ordermanager_db'
+include 'ordermanager_service'
+include 'ordermanager_app'
+

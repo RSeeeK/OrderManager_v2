@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.core:wildfly-platform-mbean:8.0.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-platform-mbean/8.0.0.Final/61db39c8d78f245c105c8f26b8f10754fe0326ef/wildfly-platform-mbean-8.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-platform-mbean/8.0.0.Final/7d7ee4af5e9040b2342cf12be49a3a49c9e93262/wildfly-platform-mbean-8.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

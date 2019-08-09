@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.arquillian.protocol:arquillian-protocol-jmx:1.4.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-jmx/1.4.0.Final/c7d3303556547c5f945b3c1530f1c35adb772c9e/arquillian-protocol-jmx-1.4.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.arquillian.protocol/arquillian-protocol-jmx/1.4.0.Final/1f85cbf9056085e746799e6f4db9d032dfe51bf2/arquillian-protocol-jmx-1.4.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

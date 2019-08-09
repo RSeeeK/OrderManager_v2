@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.core:wildfly-deployment-repository:8.0.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-deployment-repository/8.0.0.Final/3bedbb3e43f615d2d510bc436a25fb13ca86c57b/wildfly-deployment-repository-8.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.core/wildfly-deployment-repository/8.0.0.Final/61b09f78ff21ff2593d8eee72b6f95b5b2eb0c92/wildfly-deployment-repository-8.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

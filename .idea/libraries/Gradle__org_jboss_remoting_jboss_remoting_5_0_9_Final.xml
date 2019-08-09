@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.remoting:jboss-remoting:5.0.9.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.remoting/jboss-remoting/5.0.9.Final/f8fb72db1b9b8859b3a05796b03a504d2f457a9a/jboss-remoting-5.0.9.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.jboss.remoting/jboss-remoting/5.0.9.Final/43edd66310db8e5baf1af730fb540cb40657274/jboss-remoting-5.0.9.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

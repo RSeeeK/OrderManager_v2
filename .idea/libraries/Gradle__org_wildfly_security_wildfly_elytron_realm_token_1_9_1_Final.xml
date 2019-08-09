@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-realm-token:1.9.1.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-realm-token/1.9.1.Final/364bfd634d9f50b7cdecfb6bf9959b6e924b5c89/wildfly-elytron-realm-token-1.9.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.5.1/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-realm-token/1.9.1.Final/1c2f878602ab934e38b2d570e9271d344e879639/wildfly-elytron-realm-token-1.9.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
