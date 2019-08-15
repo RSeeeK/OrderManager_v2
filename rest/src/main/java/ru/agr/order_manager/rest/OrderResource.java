@@ -1,9 +1,9 @@
-package ru.agr.order_manager.app.api;
+package ru.agr.order_manager.rest;
 
 import ru.agr.order_manager.db.entity.Order;
-import ru.agr.order_manager.OrderService;
+import ru.agr.order_manager.service.OrderService;
 
-import javax.enterprise.context.RequestScoped;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -17,8 +17,9 @@ import java.util.List;
  *
  * @author Rabadanov A.G.
  */
-@RequestScoped
-@Path("order")
+
+@Path("/order")
+@Stateless
 public class OrderResource {
 
     @Inject
@@ -28,6 +29,13 @@ public class OrderResource {
     @Produces(MediaType.APPLICATION_XML)
     @Path("/orders")
     public List<Order> getOrders() {
+        return orderService.getListOfOrders();
+    }
+
+    @GET()
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/orders_json")
+    public List<Order> getOrdersJSON() {
         return orderService.getListOfOrders();
     }
 

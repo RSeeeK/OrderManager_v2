@@ -1,4 +1,4 @@
-package ru.agr.order_manager;
+package ru.agr.order_manager.service;
 
 import ru.agr.order_manager.db.entity.Order;
 
@@ -10,5 +10,6 @@ public interface OrderService {
     void removeOrder(Integer id);
     Order getOrderById(Integer id);
     Order getOrderByEmail(String email);
+    Order getOrderByNumber(String number);
     List<Order> getListOfOrders();
 }

@@ -1,10 +1,10 @@
-package ru.agr.order_manager.app.api;
+package ru.agr.order_manager.rest;
 
 
 import ru.agr.order_manager.db.entity.OrderContent;
-import ru.agr.order_manager.OrderContentService;
+import ru.agr.order_manager.service.OrderContentService;
 
-import javax.enterprise.context.RequestScoped;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -21,8 +21,9 @@ import java.util.List;
  *
  * @author Rabadanov A.G.
  */
-@RequestScoped
-@Path("ordercontent")
+
+@Path("/ordercontent")
+@Stateless
 public class OrderContentResource {
 
     @Inject
@@ -36,8 +37,8 @@ public class OrderContentResource {
     }
 
     @GET
-    @Path("get/id={id}")
     @Produces(value = MediaType.TEXT_XML)
+    @Path("get/id={id}")
     public Response get(@PathParam("id") Integer id) {
         return Response.ok(orderContentService.getOrderContentById(id)).build();
     }

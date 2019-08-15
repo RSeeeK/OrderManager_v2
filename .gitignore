@@ -4,6 +4,3 @@ OrderManager.iml
 /.idea/
 /.gradle/
 /gradle/
-/ordermanager_app/build/
-/ordermanager_db/build/
-/ordermanager_service/build/

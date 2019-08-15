@@ -1,9 +1,9 @@
-package ru.agr.order_manager.app.api;
+package ru.agr.order_manager.rest;
 
 import ru.agr.order_manager.db.entity.Product;
-import ru.agr.order_manager.ProductService;
+import ru.agr.order_manager.service.ProductService;
 
-import javax.enterprise.context.RequestScoped;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -20,8 +20,9 @@ import java.util.List;
  *
  * @author Rabadanov A.G.
  */
-@RequestScoped
-@Path("product")
+
+@Path("/product")
+@Stateless
 public class ProductResource {
 
     @Inject

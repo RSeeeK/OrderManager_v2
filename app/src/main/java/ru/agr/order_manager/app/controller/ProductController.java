@@ -1,7 +1,7 @@
 package ru.agr.order_manager.app.controller;
 
 import ru.agr.order_manager.db.entity.Product;
-import ru.agr.order_manager.ProductService;
+import ru.agr.order_manager.service.ProductService;
 
 import javax.enterprise.context.Conversation;
 import javax.enterprise.context.ConversationScoped;

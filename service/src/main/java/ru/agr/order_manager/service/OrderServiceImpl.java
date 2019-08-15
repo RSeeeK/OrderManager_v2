@@ -1,4 +1,4 @@
-package ru.agr.order_manager;
+package ru.agr.order_manager.service;
 
 import ru.agr.order_manager.db.entity.Order;
 import ru.agr.order_manager.db.repository.OrderDAO;
@@ -38,6 +38,10 @@ public class OrderServiceImpl implements OrderService, Serializable {
 
     public Order getOrderByEmail(String email) {
         return orderDao.getOrderByEmail(email);
+    }
+
+    public Order getOrderByNumber(String number) {
+        return orderDao.getOrderByNumber(number);
     }
 
     public List<Order> getListOfOrders() {

@@ -1,5 +1,4 @@
 plugins {
-    id 'java'
     id 'war'
 }
 
@@ -17,15 +16,10 @@ repositories {
 
 dependencies {
     //Project modules
-    compile project(':db')
     compile project(':service')
 
     //FACES
     compile 'org.richfaces:richfaces:4.5.17.Final'
-
-    //JERSEY
-    compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.29'
-    compile 'org.glassfish.jersey.inject:jersey-hk2:2.29'
 
     //Java EE
     compile group: 'javax', name: 'javaee-api', version: '8.0.1'

@@ -5,6 +5,7 @@ import ru.agr.order_manager.db.entity.Order;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
@@ -41,8 +42,19 @@ public class OrderDAOImpl implements OrderDAO {
     }
 
     @Override
+    public Order getOrderByNumber(String number) {
+        TypedQuery<Order> query = em.createQuery("SELECT o FROM ORDERS o where o.number = :number", Order.class);
+        query.setParameter("number",number);
+        List<Order> orders = query.getResultList();
+        return (orders.isEmpty()) ? null : orders.get(0);
+    }
+
+    @Override
     public Order getOrderByEmail(String email) {
-        return em.find(Order.class, email);
+        TypedQuery<Order> query = em.createQuery("SELECT o FROM ORDERS o where o.customerEmail = :customeremail", Order.class);
+        query.setParameter("customeremail",email);
+        List<Order> orders = query.getResultList();
+        return (orders.isEmpty()) ? null : orders.get(0);
     }
 
     public List<Order> getListOfOrders() {

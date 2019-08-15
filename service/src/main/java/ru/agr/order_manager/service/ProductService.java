@@ -1,4 +1,4 @@
-package ru.agr.order_manager;
+package ru.agr.order_manager.service;
 
 import ru.agr.order_manager.db.entity.Product;
 import java.util.List;

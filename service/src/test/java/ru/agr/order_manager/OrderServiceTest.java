@@ -4,6 +4,7 @@ import ru.agr.order_manager.db.entity.Order;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ru.agr.order_manager.service.OrderService;
 
 import javax.inject.Inject;
 
@@ -30,9 +31,16 @@ public class OrderServiceTest  extends BaseServiceTest{
 
     @Test
     public void testAddOrder() throws Exception {
-        Order order = new Order();
+        String email = "vasya_test@inbox.ru";
+
+        Order order = orderService.getOrderByEmail(email);
+        if (order != null) {
+            orderService.removeOrder(order.getId());
+        }
+
+        order = new Order();
         order.setNumber(102032);
-        order.setCustomerEmail("vasya_test@inbox.ru");
+        order.setCustomerEmail(email);
 
         orderService.addOrder(order);
 

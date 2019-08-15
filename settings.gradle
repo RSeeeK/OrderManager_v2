@@ -5,3 +5,5 @@ rootProject.name = 'ru.agr.order_manager'
 include 'app'
 include 'db'
 include 'service'
+include 'rest'
+

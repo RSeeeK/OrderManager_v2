@@ -9,6 +9,7 @@ public interface OrderDAO {
     void updateOrder(Order order);
     void removeOrder(Integer id);
     Order getOrderById(Integer id);
+    Order getOrderByNumber(String number);
     Order getOrderByEmail(String email);
     List<Order> getListOfOrders();
 }

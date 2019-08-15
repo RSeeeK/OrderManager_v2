@@ -3,7 +3,7 @@
     <display-name>order_manager</display-name>
 
     <welcome-file-list>
-        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>Index.xhtml</welcome-file>
     </welcome-file-list>
 
     <context-param>
@@ -30,17 +30,6 @@
     <servlet-mapping>
         <servlet-name>facesServlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>Jersey servlet</servlet-name>
-        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Jersey servlet</servlet-name>
-        <url-pattern>/ru.agr.order_manager.api/*</url-pattern>
     </servlet-mapping>
 
 </web-app>

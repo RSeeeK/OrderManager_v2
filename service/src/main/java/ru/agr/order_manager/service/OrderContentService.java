@@ -1,4 +1,4 @@
-package ru.agr.order_manager;
+package ru.agr.order_manager.service;
 
 import ru.agr.order_manager.db.entity.Order;
 import ru.agr.order_manager.db.entity.OrderContent;

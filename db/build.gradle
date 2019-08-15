@@ -14,7 +14,7 @@ apply plugin: 'org.flywaydb.flyway'
 
 flyway {
     url = 'jdbc:postgresql://localhost:5434/ordermanager'
-    locations = ['filesystem:' + rootDir + '/ordermanager_db/src/main']
+    locations = ['filesystem:' + rootDir + '/db/src/main']
     user = 'postgres'
     password = 'P@ssw0rd'
     schemas = ['public']
@@ -26,7 +26,8 @@ repositories {
 
 dependencies {
     //database
-    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.4'
+//    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.4'
+    compile group: 'org.eclipse.persistence', name: 'eclipselink', version: '2.7.4'
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
 
     // Java EE
